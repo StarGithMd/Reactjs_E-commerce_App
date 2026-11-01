@@ -1,0 +1,10 @@
+version: '3.8'
+
+services:
+  react-app:
+    image: doch2/dev:latest
+    container_name: react-ecommerce-app
+    ports:
+      - "80:80"
+    restart: always
+
